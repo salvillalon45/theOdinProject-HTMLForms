@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="author" content="Salvador Villalon" />
+		<meta name="description" content="The Odin Project: HTML Forms" />
+		<meta name="keywords" content="HTML CSS" />
+		<link rel="stylesheet" href="./assets/stylesheets/reset.css" />
+		<link rel="stylesheet" href="./assets/stylesheets/index.css" />
+		<link
+			rel="stylesheet"
+			href="./public/assets/stylesheets/tailwind.css"
+		/>
+		<link
+			rel="shortcut icon"
+			href="./assets/images/favicon.png"
+			type="image/x-icon"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+		/>
+		<title>The Odin Project: HTML Forms</title>
+	</head>
+	<body>
+		<header>
+			<div class="sign-in-container">
+				<div class="already-have-acccount-container">
+					<p>Already have an Intuit account?</p>
+					<p>
+						<a
+							href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D3f6b3bf1-3fae-4f14-85de-eeecd5d7f62e%26adobe_mc%3DMCMID%253D23266114906341318024190673831356883930%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1585842406%26ivid%3D3f6b3bf1-3fae-4f14-85de-eeecd5d7f62e%26ivid%3D37c9f666-b06c-4a95-872d-56bbf1d4a62b#"
+							>I forgot my User ID or Password</a
+						>
+					</p>
+				</div>
+
+				<button>
+					<i class="bi bi-lock lock"></i>
+					Sign In
+				</button>
+			</div>
+		</header>
+
+		<main>
+			<article>
+				<section aria-label="Sign Up Form">
+					<div class="logos-container">
+						<img
+							id="intuit-logo"
+							src="./assets/images/intuit_logo.svg"
+							alt="Intuit Logo"
+						/>
+						<div class="products-container">
+							<div class="products-logo-container">
+								<img
+									class="logo"
+									src="./assets/images/mint.svg"
+									alt="Mint Logo"
+								/>
+								<img
+									class="logo-text"
+									src="./assets/images/mint-link.svg"
+									alt="Mint Link Logo"
+								/>
+							</div>
+
+							<div class="products-logo-container">
+								<img
+									class="logo"
+									src="./assets/images/quickbooks.svg"
+									alt="Quickbooks Logo"
+								/>
+								<img
+									class="logo-text"
+									id="quickbooks-logo-text"
+									src="./assets/images/quickbooks-link.svg"
+									alt="Quickbooks Link Logo"
+								/>
+							</div>
+
+							<div class="products-logo-container">
+								<img
+									class="logo"
+									src="./assets/images/turbotax.svg"
+									alt="Turbotax Logo"
+								/>
+								<img
+									class="logo-text"
+									src="./assets/images/turbotax-link.svg"
+									alt="Turbotax Link Logo"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<form>
+						<h1>Create an Intuit account</h1>
+						<h2>
+							One account for everything Intuit, including Mint.
+							<a
+								href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
+								>Learn more</a
+							>
+						</h2>
+
+						<fieldset class="sign-up-inputs">
+							<div>
+								<label>
+									Email
+									<input type="email" name="email" />
+								</label>
+							</div>
+
+							<label>
+								Phone (recommended)
+								<input type="tel" name="phone" />
+							</label>
+
+							<label>
+								Password
+								<input type="password" name="password" />
+							</label>
+						</fieldset>
+
+						<fieldset class="create-account-container">
+							<button>
+								<i class="bi bi-lock lock"></i>
+								<span>Create Account</span>
+							</button>
+						</fieldset>
+
+						<div class="privacy-container">
+							<p>
+								By selecting Create account, you agree to our
+
+								<a href="https://www.mint.com/terms">Terms</a>
+								and have read and acknowledge our
+								<a
+									href="https://www.intuit.com/privacy/statement/"
+									>Global Privacy Statement</a
+								>.
+							</p>
+
+							<p id="updates">
+								Updates effective on January 10, 2022
+							</p>
+						</div>
+
+						<div class="recaptcha-container">
+							<p>
+								Invisible reCAPTCHA by Google
+								<a
+									href="https://www.google.com/intl/en/policies/privacy/"
+									>Privacy Policy</a
+								>
+								and
+								<a
+									href="https://www.google.com/intl/en/policies/terms/"
+									>Terms of Use</a
+								>.
+							</p>
+						</div>
+					</form>
+				</section>
+
+				<section arial-label="CopyRight">
+					<div class="copyright-container">
+						<div class="copyright-links-container">
+							<a href="https://www.intuit.com/legal/">Legal</a>
+							<a href="https://www.intuit.com/privacy/statement/"
+								>Privacy</a
+							>
+							<a href="https://security.intuit.com/">Security</a>
+						</div>
+
+						<div class="all-rights-container">
+							<p>
+								© 2022 Intuit, Inc. All rights reserved. Intuit,
+								QuickBooks, QB, TurboTax, ProConnect and Mint
+								are registered trademarks of Intuit Inc.
+							</p>
+							<p>
+								Terms and conditions, features, support,
+								pricing, and service options subject to change
+								without notice.
+							</p>
+						</div>
+					</div>
+				</section>
+			</article>
+		</main>
+
+		<footer>
+			<p>Privacy Settings</p>
+		</footer>
+	</body>
+</html>
